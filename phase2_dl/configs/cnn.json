@@ -1,0 +1,12 @@
+{
+  "model": "cnn",
+  "training": {
+    "max_epochs": 100,
+    "patience": 10,
+    "lr": 1e-4,
+    "weight_decay": 1e-4,
+    "t_max": 50,
+    "eta_min": 1e-6,
+    "batch_size": 128
+  }
+}

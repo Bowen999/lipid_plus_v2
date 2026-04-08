@@ -1,0 +1,15 @@
+{
+    "model_type": "lightgbm",
+    "params": {
+        "n_estimators": 10000,
+        "max_depth": 8,
+        "learning_rate": 0.1,
+        "subsample": 0.8,
+        "colsample_bytree": 0.5,
+        "min_child_weight": 5,
+        "n_jobs": -1,
+        "random_state": 42,
+        "early_stopping_rounds": 500,
+        "verbose": -1
+    }
+}

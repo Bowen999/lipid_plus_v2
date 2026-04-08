@@ -1,0 +1,35 @@
+# Large data & model files
+*.csv
+*.parquet
+*.h5
+*.pth
+*.pt
+*.joblib
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.mgf
+*.msp
+
+# Dataset directories
+dataset/
+phase1_ml/data/
+phase2_dl/data/
+
+# Model output directories
+phase1_ml/outputs/
+phase2_dl/outputs/
+
+# System files
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Claude internal
+.claude/

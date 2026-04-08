@@ -1,0 +1,19 @@
+Training log — lightgbm — 2026-04-04 17:06:46
+Quick mode: False
+==========================================================================================
+Model                 target          train     val  feats  best_iter      time
+──────────────────────────────────────────────────────────────────────────────────────────
+adduct                target=adduct_enc    train= 74,300  val=15,921  feats=3102  best_iter= 3439  time=737s
+class                 target=class_enc     train= 74,300  val=15,921  feats=3103  best_iter= 7941  time=5455s
+nc1                   target=num_c_1       train= 74,300  val=15,921  feats=3107  best_iter= 1897  time=843s
+ndb1                  target=num_db_1      train= 74,300  val=15,921  feats=3107  best_iter=  456  time=116s
+nox1                  target=num_ox_1      train= 74,300  val=15,921  feats=3107  best_iter=  304  time=44s
+nc2                   target=num_c_2       train= 53,829  val=11,534  feats=3110  best_iter= 5192  time=939s
+ndb2                  target=num_db_2      train= 53,829  val=11,534  feats=3110  best_iter=  424  time=60s
+nox2                  target=num_ox_2      train= 53,829  val=11,534  feats=3110  best_iter= 9982  time=247s
+nc3                   target=num_c_3       train=  9,945  val= 2,129  feats=3113  best_iter= 2452  time=84s
+ndb3                  target=num_db_3      train=  9,945  val= 2,129  feats=3113  best_iter= 3631  time=60s
+nox3                  target=num_ox_3      train=  9,945  val= 2,129  feats=3113  best_iter=   74  time=1s
+nc4                   target=num_c_4       train=    428  val=    91  feats=3116  best_iter= 1990  time=4s
+ndb4                  target=num_db_4      train=    428  val=    91  feats=3116  best_iter= 7244  time=11s
+nox4                  target=num_ox_4      train=    428  val=    91  feats=3116  best_iter=    1  time=0s

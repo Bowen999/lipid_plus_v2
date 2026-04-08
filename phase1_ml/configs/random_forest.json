@@ -1,0 +1,13 @@
+{
+    "model_type": "random_forest",
+    "params": {
+        "n_estimators": 3000,
+        "max_depth": null,
+        "max_features": 0.3,
+        "min_samples_split": 10,
+        "min_samples_leaf": 15,
+        "class_weight": "balanced",
+        "n_jobs": -1,
+        "random_state": 42
+    }
+}

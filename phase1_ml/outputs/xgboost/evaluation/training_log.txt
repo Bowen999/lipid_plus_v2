@@ -1,0 +1,19 @@
+Training log — xgboost — 2026-04-07 13:21:16
+Quick mode: False
+==========================================================================================
+Model                 target          train     val  feats  best_iter      time
+──────────────────────────────────────────────────────────────────────────────────────────
+adduct                target=adduct_enc    train= 74,300  val=15,921  feats=3102  best_iter= 1766  time=6435s
+class                 target=class_enc     train= 74,300  val=15,921  feats=3103  best_iter= 2406  time=30418s
+nc1                   target=num_c_1       train= 74,300  val=15,921  feats=3107  best_iter= 2059  time=12116s
+ndb1                  target=num_db_1      train= 74,300  val=15,921  feats=3107  best_iter=  667  time=1502s
+nox1                  target=num_ox_1      train= 74,300  val=15,921  feats=3107  best_iter=  385  time=617s
+nc2                   target=num_c_2       train= 53,829  val=11,534  feats=3110  best_iter= 3419  time=8814s
+ndb2                  target=num_db_2      train= 53,829  val=11,534  feats=3110  best_iter=  729  time=1083s
+nox2                  target=num_ox_2      train= 53,829  val=11,534  feats=3110  best_iter= 1151  time=635s
+nc3                   target=num_c_3       train=  9,945  val= 2,129  feats=3113  best_iter= 1812  time=678s
+ndb3                  target=num_db_3      train=  9,945  val= 2,129  feats=3113  best_iter= 2292  time=437s
+nox3                  target=num_ox_3      train=  9,945  val= 2,129  feats=3113  best_iter=  217  time=23s
+nc4                   target=num_c_4       train=    428  val=    91  feats=3116  best_iter=  203  time=3s
+ndb4                  target=num_db_4      train=    428  val=    91  feats=3116  best_iter= 2314  time=11s
+nox4                  target=num_ox_4      train=    428  val=    91  feats=3116  best_iter=    0  time=1s

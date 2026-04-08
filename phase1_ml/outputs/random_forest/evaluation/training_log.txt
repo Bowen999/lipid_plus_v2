@@ -1,0 +1,19 @@
+Training log — random_forest — 2026-04-04 19:30:21
+Quick mode: False
+==========================================================================================
+Model                 target          train     val  feats  best_iter      time
+──────────────────────────────────────────────────────────────────────────────────────────
+adduct                target=adduct_enc    train= 74,300  val=15,921  feats=3102  best_iter=    -  time=2908s
+class                 target=class_enc     train= 74,300  val=15,921  feats=3103  best_iter=    -  time=4322s
+nc1                   target=num_c_1       train= 74,300  val=15,921  feats=3107  best_iter=    -  time=3606s
+ndb1                  target=num_db_1      train= 74,300  val=15,921  feats=3107  best_iter=    -  time=2494s
+nox1                  target=num_ox_1      train= 74,300  val=15,921  feats=3107  best_iter=    -  time=1111s
+nc2                   target=num_c_2       train= 53,829  val=11,534  feats=3110  best_iter=    -  time=2193s
+ndb2                  target=num_db_2      train= 53,829  val=11,534  feats=3110  best_iter=    -  time=1189s
+nox2                  target=num_ox_2      train= 53,829  val=11,534  feats=3110  best_iter=    -  time=567s
+nc3                   target=num_c_3       train=  9,945  val= 2,129  feats=3113  best_iter=    -  time=181s
+ndb3                  target=num_db_3      train=  9,945  val= 2,129  feats=3113  best_iter=    -  time=144s
+nox3                  target=num_ox_3      train=  9,945  val= 2,129  feats=3113  best_iter=    -  time=42s
+nc4                   target=num_c_4       train=    428  val=    91  feats=3116  best_iter=    -  time=2s
+ndb4                  target=num_db_4      train=    428  val=    91  feats=3116  best_iter=    -  time=2s
+nox4                  target=num_ox_4      train=    428  val=    91  feats=3116  best_iter=    -  time=1s
